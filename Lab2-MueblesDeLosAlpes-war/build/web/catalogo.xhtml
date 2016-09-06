@@ -10,13 +10,13 @@
                 xmlns:p="http://primefaces.org/ui">
 
     <ui:param name="titulo" value="Catálogo de muebles" />
-    <ui:define name="menu">
-        <h:panelGroup>
-            <h:commandButton value="Administrar Cliente  " action="#{AdminBean.irAdminCliente}" />
-            <h:commandButton value="Administrar Catalogo" action="#{AdminBean.irAdminCatalogo}" />
-        </h:panelGroup>
-    </ui:define>
     <ui:define name="body">
+        <!-- Salir de administrar Catalogos -->
+        <h:panelGroup>
+            <h:commandButton value="Atras  " action="#{AdminBean.irAdminCliente}" />
+            <h1>Administrar Catalogos</h1>
+        </h:panelGroup>
+
         <h:form>
                 <!-- Panel para agregar un nuevo mueble -->
                     <h:panelGrid columns="1" width="100px"

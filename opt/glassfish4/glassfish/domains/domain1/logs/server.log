@@ -1297,3 +1297,186 @@ javax.faces.view.facelets.FaceletException: Error Parsing /menu-administrador.xh
 [2016-09-06T14:32:19.729-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190339729] [levelValue: 900] [[
   No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
 
+[2016-09-06T14:40:01.647-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473190801647] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:40:01.655-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190801655] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:40:01.655-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190801655] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:40:45.737-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473190845737] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:40:45.752-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473190845752] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:40:45.753-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473190845753] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:41:28.975-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190888975] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:41:28.990-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190888990] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:41:28.990-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190888990] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:41:48.988-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473190908988] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:41:49.003-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190909003] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:41:49.003-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190909003] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:42:07.515-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=19 _ThreadName=Thread-3] [timeMillis: 1473190927515] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:42:07.530-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=19 _ThreadName=http-listener-1(2)] [timeMillis: 1473190927530] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:42:07.530-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=19 _ThreadName=http-listener-1(2)] [timeMillis: 1473190927530] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:42:20.827-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190940827] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:42:20.841-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190940841] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:42:20.841-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190940841] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:43:37.880-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473191017880] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:43:37.888-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191017888] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.faces.view.facelets.TagException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/cliente.xhtml @17,25 <h:panelGroupm> Tag Library supports namespace: http://java.sun.com/jsf/html, but no tag was defined for name: panelGroupm]]
+
+[2016-09-06T14:43:37.888-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191017888] [levelValue: 1100] [[
+  /cliente.xhtml @17,25 <h:panelGroupm> Tag Library supports namespace: http://java.sun.com/jsf/html, but no tag was defined for name: panelGroupm
+javax.faces.view.facelets.TagException: /cliente.xhtml @17,25 <h:panelGroupm> Tag Library supports namespace: http://java.sun.com/jsf/html, but no tag was defined for name: panelGroupm
+	at com.sun.faces.facelets.compiler.CompilationManager.pushTag(CompilationManager.java:310)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.startElement(SAXCompiler.java:266)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:745)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:332)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:442)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
+	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:124)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:477)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:106)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:203)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:201)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:86)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:81)
+	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:99)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:114)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:124)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:63)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:299)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:243)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:966)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-09-06T14:44:26.670-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=21 _ThreadName=Thread-3] [timeMillis: 1473191066670] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:44:26.684-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=21 _ThreadName=http-listener-1(4)] [timeMillis: 1473191066684] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:44:26.685-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=21 _ThreadName=http-listener-1(4)] [timeMillis: 1473191066685] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:44:37.893-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473191077893] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:44:37.902-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473191077902] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:44:37.903-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473191077903] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:44:49.880-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473191089880] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:44:49.897-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191089897] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:44:49.898-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191089898] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:45:08.538-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473191108538] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:45:08.553-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191108553] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:45:08.554-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191108554] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:45:53.573-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473191153573] [levelValue: 800] [[
+  Llego a irAdminCliente]]
+
+[2016-09-06T14:45:53.590-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191153590] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:45:53.591-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191153591] [levelValue: 900] [[
+  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+
+[2016-09-06T14:45:59.252-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473191159252] [levelValue: 800] [[
+  Llego a irAdminCatalogo]]
+
+[2016-09-06T14:46:23.019-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473191183019] [levelValue: 800] [[
+  Llego a irAdminCatalogo]]
+
+[2016-09-06T14:46:44.686-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=21 _ThreadName=Thread-3] [timeMillis: 1473191204686] [levelValue: 800] [[
+  Llego a irAdminCatalogo]]
+

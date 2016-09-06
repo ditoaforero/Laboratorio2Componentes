@@ -10,7 +10,15 @@
                 xmlns:p="http://primefaces.org/ui">
 
     <ui:param name="titulo" value="Gestion de clientes" />
+    
     <ui:define name="body">
+        
+        <!-- Salir de administrar cliente -->
+        <h:panelGroup>
+            <h:commandButton value="Atras  " action="#{AdminBean.irAdminCliente}" />
+            <h1>Administrar clientes</h1>
+        </h:panelGroup>
+                    
         <h:form>
 
             <!-- Panel para agregar un nuevo cliente -->
