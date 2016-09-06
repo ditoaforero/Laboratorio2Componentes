@@ -18,7 +18,6 @@ public class AdminBean {
      * Creates a new instance of AdminBean
      */
     public AdminBean() {
-        
     }
     
     public String irAdminCatalogo(){
@@ -30,5 +29,4 @@ public class AdminBean {
         System.out.println("Llego a irAdminCliente");
         return "cliente.xhtml";
     }
-    
 }
