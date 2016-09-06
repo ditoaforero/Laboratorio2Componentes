@@ -129,5 +129,10 @@ public class CatalogoBean
         System.out.println("Llego a irMenuAdmin");
         return "menu-administrador.xhtml";
     }
+    
+    public String irLogin(){
+        System.out.println("Llego a irMenuAdmin");
+        return "index.xhtml";
+    }
 
 }

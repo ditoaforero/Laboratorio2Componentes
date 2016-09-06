@@ -29,4 +29,9 @@ public class AdminBean {
         System.out.println("Llego a irAdminCliente");
         return "cliente.xhtml";
     }
+    
+    public String irLogin(){
+        System.out.println("Llego a irMenuAdmin");
+        return "index.xhtml";
+    }
 }

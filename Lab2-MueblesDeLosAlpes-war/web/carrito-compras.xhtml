@@ -13,42 +13,10 @@
 
     <ui:define name="body">
         <h:form>
-            <h:commandButton value="Atras"   action="#{catalogoBean.irMenuAdmin}" />
+            <h:commandButton value="Salir"   action="#{catalogoBean.irLogin}" />
         </h:form>
-        <h:form>
-                <ui:define name="menu">
-                    <h:commandButton value="Salir" action="#{catalogoBean.irMenuAdmin}" />       
-                </ui:define>
-            
-                <!-- Panel para agregar un nuevo mueble -->
-                    <h:panelGrid columns="1" width="100px"
-                             columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
 
-                    <h:outputLabel for="TxtDescripcion" value="Descripción" />
-                    <h:inputTextarea id="TxtDescripcion"
-                                     value="#{catalogoBean.mueble.descripcion}"
-                                     rows="4" style="width: 125px"
-                                     label="Descripción"
-                                     >
-                        <f:validateLength minimum="1"/>
-
-                    </h:inputTextarea>
-                    <h:message id="descMsg" for="TxtDescripcion" />
-
-                </h:panelGrid>
-                <h:panelGrid>
-                    <h:selectOneMenu value="#{catalogoBean.mueble.tipo}">
-                        <f:selectItems value="#{catalogoBean.tiposMuebles}" />
-                    </h:selectOneMenu>
-                </h:panelGrid>
-
-                <h:commandButton value="Agregar" action="#{catalogoBean.agregarMueble}" />
-                <h:commandButton value="Limpiar" action="#{catalogoBean.limpiar}" />
-                
-                
-          
-
-        </h:form>
+        <h1>Lista de productos a comprar</h1>
 
         <h:form>
             <!-- Se crea una tabla donde se presentan los muebles del sistema -->
@@ -78,7 +46,44 @@
                 <p:column headerText="Tipo">
                     <h:outputText value="#{file.tipo}" />
                 </p:column>
+                
+                <p:column headerText="Comprar" sortBy="#{file.profesion}">
+                    <h:commandButton value="Comprar" action="#{ClienteBean.eliminarCliente(file)}" />
+                </p:column>  
 
+            </p:dataTable>
+
+        </h:form>
+
+        <h1>Lista de productos comprados</h1>
+        <h:form>
+            <!-- Se crea una tabla donde se presentan los muebles del sistema -->
+            <p:dataTable
+                id="data"
+                value="#{catalogoBean.muebles}"
+                var="file"
+                scrollable="false"
+                scrollHeight="100px"
+                paginator="true"
+                paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                resizableColumns="true"
+                rows="5">
+
+                <p:column headerText="Referencia" sortBy="#{file.referencia}">
+                    <h:outputText value="#{file.referencia}" />
+                </p:column>
+
+                <p:column headerText="Nombre">
+                    <h:outputText value="#{file.nombre}" />
+                </p:column>
+
+                <p:column headerText="Descripción">
+                    <h:outputText value="#{file.descripcion}" />
+                </p:column>
+
+                <p:column headerText="Tipo">
+                    <h:outputText value="#{file.tipo}" />
+                </p:column>               
             </p:dataTable>
 
         </h:form>

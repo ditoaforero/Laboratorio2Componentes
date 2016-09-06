@@ -75,7 +75,7 @@ public class LoginBean {
             if (user.getTipo() == TipoUsuario.ADMINISTRADOR) {
                 return "menu-administrador.xhtml";
             } else {
-                return "cliente.xhtml";
+                return "carrito-compras.xhtml";
             }
         } catch (AutenticacionException ex) {
             error = true;
