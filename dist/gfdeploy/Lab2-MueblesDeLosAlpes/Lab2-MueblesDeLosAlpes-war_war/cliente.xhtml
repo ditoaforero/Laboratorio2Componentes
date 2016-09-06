@@ -10,19 +10,11 @@
                 xmlns:p="http://primefaces.org/ui">
 
     <ui:param name="titulo" value="Gestion de clientes" />
-    <ui:define name="menu">
-        <h:panelGroup>
-            <h:commandButton value="Administrar Clientes" action="#{AdminBean.irAdminCliente}" />
-            <h:commandButton value="Administrar Catalogo" action="#{AdminBean.irAdminCatalogo}" />
-
-        </h:panelGroup>
-    </ui:define>
     <ui:define name="body">
         <h:form>
 
             <!-- Panel para agregar un nuevo cliente -->
             <h:panelGroup>
-
                 <!-- Tipo de documento -->
                 <h:panelGrid width="100px" columns="1" columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
                     <h:outputLabel for="TxtTipoDocumento"

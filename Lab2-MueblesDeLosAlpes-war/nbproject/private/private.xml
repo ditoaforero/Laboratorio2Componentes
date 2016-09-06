@@ -2,7 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
         <group name="Group 20160830-06:17:15">
             <file>file:/C:/Users/Dito/Documents/NetBeansProjects/Lab2-MueblesDeLosAlpes/Lab2-MueblesDeLosAlpes-war/src/java/com/losalpes/beans/CatalogoBean.java</file>
             <file>file:/C:/Users/Dito/Documents/NetBeansProjects/Lab2-MueblesDeLosAlpes/Lab2-MueblesDeLosAlpes-war/web/main-template.xhtml</file>
@@ -14,6 +13,9 @@
             <file>file:/C:/Users/Dito/Documents/NetBeansProjects/Lab2-MueblesDeLosAlpes/Lab2-MueblesDeLosAlpes-war/web/catalogo.xhtml</file>
             <file>file:/C:/Users/Dito/Documents/NetBeansProjects/Lab2-MueblesDeLosAlpes/Lab2-MueblesDeLosAlpes-war/web/cliente.xhtml</file>
             <file>file:/C:/Users/Dito/Documents/NetBeansProjects/Lab2-MueblesDeLosAlpes/Lab2-MueblesDeLosAlpes-war/src/java/com/losalpes/beans/LoginBean.java</file>
+        </group>
+        <group>
+            <file>file:/home/liliana/Escritorio/Laboratorio2Componentes/Lab2-MueblesDeLosAlpes-war/src/java/com/losalpes/beans/AdminBean.java</file>
         </group>
     </open-files>
 </project-private>

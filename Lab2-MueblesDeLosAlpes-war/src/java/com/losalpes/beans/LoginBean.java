@@ -73,9 +73,9 @@ public class LoginBean {
         try {
             Usuario user = servicio.login(usuario, contraseña);
             if (user.getTipo() == TipoUsuario.ADMINISTRADOR) {
-                return "catalogo.xhtml";
+                return "menu-administrador.xhtml";
             } else {
-                return "";
+                return "cliente.xhtml";
             }
         } catch (AutenticacionException ex) {
             error = true;

@@ -18,12 +18,8 @@
     </ui:define>
     <ui:define name="body">
         <h:form>
-
-
-            <!-- Panel para agregar un nuevo mueble -->
-            
-
-                <h:panelGrid columns="1" width="100px"
+                <!-- Panel para agregar un nuevo mueble -->
+                    <h:panelGrid columns="1" width="100px"
                              columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
 
                     <h:outputLabel for="TxtDescripcion" value="Descripción" />
@@ -51,8 +47,6 @@
 
         </h:form>
         <h:form>
-
-
             <!-- Se crea una tabla donde se presentan los muebles del sistema -->
             <p:dataTable
                 id="data"
@@ -64,7 +58,6 @@
                 paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
                 resizableColumns="true"
                 rows="5">
-
 
                 <p:column headerText="Referencia" sortBy="#{file.referencia}">
                     <h:outputText value="#{file.referencia}" />
