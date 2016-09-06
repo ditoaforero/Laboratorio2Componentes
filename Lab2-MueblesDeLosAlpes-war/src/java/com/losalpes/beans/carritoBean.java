@@ -55,6 +55,7 @@ public class carritoBean
     {
         mueble=new Mueble();
         catalogo=new ServicioCatalogoMock();
+        
     }
 
     //-----------------------------------------------------------

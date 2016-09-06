@@ -34,6 +34,7 @@ public class ServicioCatalogoMock implements IServicioCatalogo
      * Arreglo con los muebles del sistema
      */
     private ArrayList<Mueble> muebles;
+   
 
     //-----------------------------------------------------------
     // Constructor
@@ -58,6 +59,8 @@ public class ServicioCatalogoMock implements IServicioCatalogo
         muebles.add(new Mueble("RF7","Silla de jardín","Una bella silla para comidas y reuniones al aire libre.",TipoMueble.Exterior));
         muebles.add(new Mueble("RF8","Camarote junior","Con diseño moderno. Sus hijos ahora podrán tener unos felices sueños.",TipoMueble.Interior));
 
+        
+        
     }
 
     //-----------------------------------------------------------
