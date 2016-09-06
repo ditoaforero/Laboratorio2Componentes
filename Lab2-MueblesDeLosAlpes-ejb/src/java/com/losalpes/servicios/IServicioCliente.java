@@ -16,6 +16,8 @@ public interface IServicioCliente {
     
 
     public void agregarCliente(Cliente cliente);
+    
+    public void eliminarCliente(Cliente cliente);
 
     public List<Cliente> darClientes();
 }

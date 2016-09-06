@@ -28,7 +28,8 @@ public class ServicioClienteMock  implements IServicioCliente{
         clientes=new ArrayList<Cliente>();
 
         //Agrega los clientes del sistema
-        clientes.add(new Cliente("CC", 123456789, "Eduardo Arèvalo Forero", 6333812, 31838692, "Calle 1 ·1-1", "Bogota", "Bogota", "Colombia", "Ing. Sistemas", "e.arevalo@uniandes.edu.co", "Natural", "0-0"));
+        clientes.add(new Cliente("CC", 123456789, "Liliana Forero", 6333812, 31838692, "Calle 1 ·1-1", "Bogota", "Bogota", "Colombia", "Ingeniero", "e.arevalo@uniandes.edu.co", "Natural", "0-0"));
+        clientes.add(new Cliente("CC", 123456789, "Eduardo Forero", 6333812, 31838692, "Calle 1 ·1-1", "Bogota", "Bogota", "Colombia", "Ingeniero", "e.arevalo@uniandes.edu.co", "Natural", "0-0"));
     }
     
      //-----------------------------------------------------------
@@ -38,6 +39,12 @@ public class ServicioClienteMock  implements IServicioCliente{
     public void agregarCliente(Cliente cliente){
         clientes.add(cliente);
     }
+    
+    @Override
+    public void eliminarCliente(Cliente clienteEli){
+        clientes.remove(clienteEli);
+    }
+        
 
     @Override
     public List<Cliente> darClientes(){

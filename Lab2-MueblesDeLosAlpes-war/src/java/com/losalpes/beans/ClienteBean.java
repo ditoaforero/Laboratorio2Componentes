@@ -41,8 +41,8 @@ public class ClienteBean {
     }
     
     /**
-     * Devuelve una lista con todos los muebles del sistema
-     * @return muebles Muebles del sistema
+     * Devuelve una lista con todos los cliente del sistema
+     * @return cliente cliente del sistema
      */
     public List<Cliente> getClientes(){
         return clientes.darClientes();
@@ -53,15 +53,23 @@ public class ClienteBean {
     //-----------------------------------------------------------
 
     /**
-     * Agrega un nuevo mueble al sistema
+     * Agrega un nuevo cliente al sistema
      */
     public void agregarCliente(){
         clientes.agregarCliente(cliente);
         cliente=new Cliente();
     }
+    
+    /**
+     * Agrega un nuevo cliente al sistema
+     */
+    public void eliminarCliente(Cliente clienteEliminar){
+        clientes.eliminarCliente(clienteEliminar);
+    }
+
 
     /**
-     * Elimina la información del mueble
+     * Elimina la información del cliente
      */
     public void limpiar(){
         cliente=new Cliente();

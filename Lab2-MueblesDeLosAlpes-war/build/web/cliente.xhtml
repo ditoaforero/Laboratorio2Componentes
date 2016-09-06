@@ -217,7 +217,7 @@
                     <h:outputText value="#{file.profesion}" />
                 </p:column>
                 <p:column headerText="Eliminar" sortBy="#{file.profesion}">
-                    <h:commandButton value="Eliminar" action="#{ClienteBean.limpiar}" />
+                    <h:commandButton value="Eliminar" action="#{ClienteBean.eliminarCliente(file)}" />
                 </p:column>  
             </p:dataTable>
         </h:form>
