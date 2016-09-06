@@ -12,10 +12,13 @@
     <ui:param name="titulo" value="Gestion de clientes" />
     <ui:define name="body">
         <h:form>
+            <h:commandButton value="Atras"   action="#{ClienteBean.irMenuAdmin}" />
+        </h:form>
+        <h:form>
 
             <!-- Panel para agregar un nuevo cliente -->
             <h:panelGroup>
-
+                            
                 <!-- Tipo de documento -->
                 <h:panelGrid width="100px" columns="1" columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
                     <h:outputLabel for="TxtTipoDocumento"
@@ -176,6 +179,7 @@
 
                 <h:commandButton value="Agregar" action="#{ClienteBean.agregarCliente}" />
                 <h:commandButton value="Limpiar" action="#{ClienteBean.limpiar}" />
+                
 
             </h:panelGroup>
 

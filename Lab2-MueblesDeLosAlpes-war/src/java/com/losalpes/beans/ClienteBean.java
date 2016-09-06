@@ -67,5 +67,8 @@ public class ClienteBean {
         cliente=new Cliente();
     }
 
-
+    public String irMenuAdmin(){
+        System.out.println("Llego a irMenuAdmin");
+        return "menu-administrador.xhtml";
+    }
 }
