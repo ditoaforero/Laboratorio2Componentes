@@ -216,10 +216,10 @@
                 <p:column headerText="profesion" sortBy="#{file.profesion}">
                     <h:outputText value="#{file.profesion}" />
                 </p:column>
-
-                
+                <p:column headerText="Eliminar" sortBy="#{file.profesion}">
+                    <h:commandButton value="Eliminar" action="#{ClienteBean.limpiar}" />
+                </p:column>  
             </p:dataTable>
-
         </h:form>
         
     </ui:define>

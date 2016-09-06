@@ -459,9 +459,10 @@
   <clusters></clusters>
   <applications>
     <application context-root="/Lab2-MueblesDeLosAlpes-war" location="file:/home/liliana/Escritorio/Laboratorio2Componentes/Lab2-MueblesDeLosAlpes-war/build/web/" name="Lab2-MueblesDeLosAlpes-war" directory-deployed="true" object-type="user">
-      <property name="appLocation" value="file:/home/liliana/Escritorio/Laboratorio2Componentes/Lab2-MueblesDeLosAlpes-war/build/web/"></property>
       <property name="archiveType" value="war"></property>
+      <property name="appLocation" value="file:/home/liliana/Escritorio/Laboratorio2Componentes/Lab2-MueblesDeLosAlpes-war/build/web/"></property>
       <property name="defaultAppName" value="web"></property>
+      <property name="keepSessions" value="true"></property>
       <module name="Lab2-MueblesDeLosAlpes-war">
         <engine sniffer="security"></engine>
         <engine sniffer="web"></engine>
