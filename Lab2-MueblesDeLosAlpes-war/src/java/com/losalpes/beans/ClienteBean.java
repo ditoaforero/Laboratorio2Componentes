@@ -65,6 +65,7 @@ public class ClienteBean {
      */
     public void eliminarCliente(Cliente clienteEliminar){
         clientes.eliminarCliente(clienteEliminar);
+        cliente=new Cliente();
     }
 
 
