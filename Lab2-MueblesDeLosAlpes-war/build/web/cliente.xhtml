@@ -14,7 +14,7 @@
         <h:form>
             <h:commandButton value="Atras"   action="#{ClienteBean.irMenuAdmin}" />
         </h:form>
-        
+        <h1>Formulario agregar cliente</h1>
         <h:form>
             <!-- Panel para agregar un nuevo cliente -->
             <h:panelGroup>     
@@ -173,7 +173,7 @@
                     <h:message id="emailMsg" for="TxtEmail" />
                 </h:panelGrid>
 
-                <h:commandButton value="Agregar" action="#{ClienteBean.agregarCliente}" />
+                <h:commandButton value="Crear Cliente" action="#{ClienteBean.agregarCliente}" />
                 <h:commandButton value="Limpiar" action="#{ClienteBean.limpiar}" />
                 
 
@@ -182,6 +182,7 @@
         </h:form>
         
          <h:form>
+             <h1>Consulta de clientes</h1>
             <!-- Se crea una tabla donde se presentan los muebles del sistema -->
             <p:dataTable
                 id="data"
