@@ -13,7 +13,7 @@
 
     <ui:define name="body">
         <h:form>
-            <h:commandButton value="Salir"   action="#{catalogoBean.irLogin}" />
+            <h:commandButton value="Salir"   action="#{carritoBean.irLogin}" />
         </h:form>
 
         <h1>Lista de productos a comprar</h1>
@@ -22,7 +22,7 @@
             <!-- Se crea una tabla donde se presentan los muebles del sistema -->
             <p:dataTable
                 id="data"
-                value="#{catalogoBean.muebles}"
+                value="#{carritoBean.muebles}"
                 var="file"
                 scrollable="false"
                 scrollHeight="100px"
@@ -48,7 +48,7 @@
                 </p:column>
                 
                 <p:column headerText="Comprar" sortBy="#{file.profesion}">
-                    <h:commandButton value="Comprar" action="#{ClienteBean.eliminarCliente(file)}" />
+                    <h:commandButton value="Comprar" action="#{carritoBean.comprar(file)}" />
                 </p:column>  
 
             </p:dataTable>
@@ -60,7 +60,7 @@
             <!-- Se crea una tabla donde se presentan los muebles del sistema -->
             <p:dataTable
                 id="data"
-                value="#{catalogoBean.muebles}"
+                value="#{carritoBean.muebles}"
                 var="file"
                 scrollable="false"
                 scrollHeight="100px"
