@@ -14,11 +14,10 @@
         <h:form>
             <h:commandButton value="Atras"   action="#{ClienteBean.irMenuAdmin}" />
         </h:form>
+        
         <h:form>
-
             <!-- Panel para agregar un nuevo cliente -->
-            <h:panelGroup>
-                            
+            <h:panelGroup>     
                 <!-- Tipo de documento -->
                 <h:panelGrid width="100px" columns="1" columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
                     <h:outputLabel for="TxtTipoDocumento"
@@ -36,15 +35,13 @@
 
                 <!-- Número de documento-->
                 <h:panelGrid width="100px" columns="1" columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
-                    <h:outputLabel for="TxtNumeroDocumento"
-                                   value="NumeroDocumento"/>
+                    <h:outputLabel for="TxtNumeroDocumento" value="NumeroDocumento"/>
                     <h:inputText id="TxtNumeroDocumento"
                                  size="20"
                                  maxlength="20"
                                  label="Nùmero de documento"
                                  value="#{ClienteBean.cliente.numeroDocumento}"
-                                 required="true"
-                                 >
+                                 required="true">
                         <f:validateLength minimum="5"/>
                     </h:inputText>
                     <h:message id="numDocMsg" for="TxtNumeroDocumento" />
@@ -148,8 +145,7 @@
 
                 <!-- Profesión -->
                 <h:panelGrid width="100px" columns="1" columnClasses="pnlGrdClass, pnlGrdClass, pnlGrdClassLong">
-                    <h:outputLabel for="TxtProfesion"
-                                   value="Profesion" />
+                    <h:outputLabel for="TxtProfesion" value="Profesion" />
                     <h:inputText id="TxtProfesion"
                                  maxlength="10"
                                  size="20"
@@ -184,6 +180,48 @@
             </h:panelGroup>
 
         </h:form>
+        
+         <h:form>
+            <!-- Se crea una tabla donde se presentan los muebles del sistema -->
+            <p:dataTable
+                id="data"
+                value="#{ClienteBean.clientes}"
+                var="file"
+                scrollable="false"
+                scrollHeight="100px"
+                paginator="true"
+                paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                resizableColumns="true"
+                rows="5">
+
+                <p:column headerText="tipo Documento" sortBy="#{file.tipoDocumento}">
+                    <h:outputText value="#{file.tipoDocumento}" />
+                </p:column>
+                <p:column headerText="numero Documento" sortBy="#{file.numeroDocumento}">
+                    <h:outputText value="#{file.numeroDocumento}" />
+                </p:column>
+
+                <p:column headerText="nombre" sortBy="#{file.nombreCompleto}">
+                    <h:outputText value="#{file.nombreCompleto}" />
+                </p:column>
+                <p:column headerText="telefono de celular" sortBy="#{file.telefonoCelular}">
+                    <h:outputText value="#{file.telefonoCelular}" />
+                </p:column>
+                <p:column headerText="direccion" sortBy="#{file.direccion}">
+                    <h:outputText value="#{file.direccion}" />
+                </p:column>
+                <p:column headerText="ciudad de residencia" sortBy="#{file.ciudadResidencia}">
+                    <h:outputText value="#{file.ciudadResidencia}" />
+                </p:column>
+                <p:column headerText="profesion" sortBy="#{file.profesion}">
+                    <h:outputText value="#{file.profesion}" />
+                </p:column>
+
+                
+            </p:dataTable>
+
+        </h:form>
+        
     </ui:define>
 
 
