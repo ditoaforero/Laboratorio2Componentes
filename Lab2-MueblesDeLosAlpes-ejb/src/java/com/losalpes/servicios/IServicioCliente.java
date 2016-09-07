@@ -13,7 +13,6 @@ import java.util.List;
  * @author Dito
  */
 public interface IServicioCliente {
-    
 
     public void agregarCliente(Cliente cliente);
     

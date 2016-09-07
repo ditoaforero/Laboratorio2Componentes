@@ -151,8 +151,7 @@ public class Cliente {
         this.nit = nit;
     }
     
-    
-    
+  
             
     
 }
