@@ -45,7 +45,6 @@ public class ServicioCatalogoMock implements IServicioCatalogo
      */
     public ServicioCatalogoMock()
     {
-
         //Inicializa el arreglo de los muebles
         muebles=new ArrayList<Mueble>();
 
@@ -57,9 +56,7 @@ public class ServicioCatalogoMock implements IServicioCatalogo
         muebles.add(new Mueble("RF5","Mesa para comedor","Sus cenas no tendrán mejor acompañante. Una mesa para seis personas con un hermoso diseño clásico.",TipoMueble.Interior));
         muebles.add(new Mueble("RF6","Cama king","Una hermosa cama hecha en cedro para dos personas. Sus sueños no volveran a ser iguales.",TipoMueble.Interior));
         muebles.add(new Mueble("RF7","Silla de jardín","Una bella silla para comidas y reuniones al aire libre.",TipoMueble.Exterior));
-        muebles.add(new Mueble("RF8","Camarote junior","Con diseño moderno. Sus hijos ahora podrán tener unos felices sueños.",TipoMueble.Interior));
-
-        
+        muebles.add(new Mueble("RF8","Camarote junior","Con diseño moderno. Sus hijos ahora podrán tener unos felices sueños.",TipoMueble.Interior));     
         
     }
 

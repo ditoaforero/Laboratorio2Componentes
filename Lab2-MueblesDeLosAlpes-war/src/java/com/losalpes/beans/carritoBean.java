@@ -12,10 +12,11 @@
 
 package com.losalpes.beans;
 
-import com.losalpes.bos.Cliente;
 import com.losalpes.bos.Mueble;
 import com.losalpes.bos.TipoMueble;
+import com.losalpes.servicios.IServicioCarrito;
 import com.losalpes.servicios.IServicioCatalogo;
+import com.losalpes.servicios.ServicioCarritoMock;
 import com.losalpes.servicios.ServicioCatalogoMock;
 import java.util.List;
 import javax.faces.bean.ManagedBean;
@@ -23,13 +24,12 @@ import javax.faces.model.SelectItem;
 
 
 /**
- * Managed bean encargado del catálogo de muebles en el sistema
+ * Managed bean encargado del catálogo de carrito en el sistema
  * 
  */
 @ManagedBean
 public class carritoBean
 {
-
     //-----------------------------------------------------------
     // Atributos
     //-----------------------------------------------------------
@@ -43,6 +43,7 @@ public class carritoBean
      * Relación con la interfaz que provee los servicios necesarios del catálogo.
      */
     private IServicioCatalogo catalogo;
+    private IServicioCarrito  catalogoCarrito;
 
     //-----------------------------------------------------------
     // Constructor
@@ -53,15 +54,14 @@ public class carritoBean
      */
     public carritoBean()
     {
-        mueble=new Mueble();
-        catalogo=new ServicioCatalogoMock();
-        
+        mueble = new Mueble();
+        catalogo = new ServicioCatalogoMock();
+        catalogoCarrito  = new ServicioCarritoMock();
     }
 
     //-----------------------------------------------------------
     // Getters y setters
     //-----------------------------------------------------------
-
     /**
      * Devuelve el objeto mueble
      * @return mueble Objeto mueble
@@ -86,31 +86,22 @@ public class carritoBean
      */
     public List<Mueble> getMuebles()
     {
-
         return catalogo.darMuebles();
     }
-
+    
+    
+     /**
+     * Devuelve una lista con todos los muebles del sistema
+     * @return muebles Muebles del sistema
+     */
+    public List<Mueble> getCarritos()
+    {
+        return catalogoCarrito.darMuebles();
+    }
+    
     //-----------------------------------------------------------
     // Métodos
     //-----------------------------------------------------------
-
-    /**
-     * Agrega un nuevo mueble al sistema
-     */
-    public void agregarMueble()
-    {
-        catalogo.agregarMueble(mueble);
-        mueble=new Mueble();
-    }
-
-    /**
-     * Elimina la información del mueble
-     */
-    public void limpiar()
-    {
-        mueble=new Mueble();
-    }
-
     /**
      * Devuelve los tipos de muebles
      * @return sitems Tipos de muebles en el sistema
@@ -127,20 +118,18 @@ public class carritoBean
         return sitems;
     }
     
-    public String irMenuAdmin(){
-        System.out.println("Llego a irMenuAdmin");
-        return "menu-administrador.xhtml";
-    }
-    
+    /**
+     * Funcion para ir a la pantalla de login
+    */
     public String irLogin(){
         System.out.println("Llego a irMenuAdmin");
         return "index.xhtml";
     }
 
-        /**
-     * Agrega un nuevo cliente al sistema
-     */
-    public void comprar(Mueble muebleComprar){
+    /**
+     * Agrega un nuevo mueble al carrito
+    */
+    public void comprar(Mueble mueble){
       //  clientes.eliminarCliente(clienteEliminar);
       //  cliente=new Cliente();
     }

@@ -1,859 +1,38 @@
-[2016-09-06T13:13:12.215-0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185592215] [levelValue: 800] [[
-  JVM invocation command line:
-/usr/lib/jvm/java-7-oracle/bin/java
--cp
-/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/modules/glassfish.jar
--XX:+UnlockDiagnosticVMOptions
--XX:NewRatio=2
--XX:MaxPermSize=192m
--Xmx512m
--client
--javaagent:/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib/monitor/flashlight-agent.jar
--Djavax.net.ssl.trustStore=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/cacerts.jks
--Dfelix.fileinstall.dir=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/modules/autostart/
--Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall
--Dcom.sun.aas.installRoot=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish
--Dfelix.fileinstall.poll=5000
--Djava.endorsed.dirs=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/modules/endorsed:/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib/endorsed
--Djava.security.policy=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/server.policy
--Dosgi.shell.telnet.maxconn=1
--Dfelix.fileinstall.bundles.startTransient=true
--Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
--Dfelix.fileinstall.log.level=2
--Djavax.net.ssl.keyStore=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/keystore.jks
--Djava.security.auth.login.config=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/login.conf
--Dfelix.fileinstall.disableConfigSave=false
--Dfelix.fileinstall.bundles.new.start=true
--Dcom.sun.aas.instanceRoot=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1
--Dosgi.shell.telnet.port=6666
--Dgosh.args=--nointeractive
--Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
--Dosgi.shell.telnet.ip=127.0.0.1
--DANTLR_USE_DIRECT_CLASS_LOADING=true
--Djava.awt.headless=true
--Djava.ext.dirs=/usr/lib/jvm/java-7-oracle/lib/ext:/usr/lib/jvm/java-7-oracle/jre/lib/ext:/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/lib/ext
--Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
--Djava.library.path=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-com.sun.enterprise.glassfish.bootstrap.ASMain
--upgrade
-false
--domaindir
-/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1
--read-stdin
-true
--asadmin-args
---host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=true,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains,,,domain1
--domainname
-domain1
--instancename
-server
--type
-DAS
--verbose
-false
--asadmin-classpath
-/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib/client/appserver-cli.jar
--debug
-false
--asadmin-classname
-com.sun.enterprise.admin.cli.AdminMain]]
-
-[2016-09-06T13:13:14.805-0500] [glassfish 4.0] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185594805] [levelValue: 800] [[
-  Running GlassFish Version: GlassFish Server Open Source Edition  4.0  (build 89)]]
-
-[2016-09-06T13:13:14.807-0500] [glassfish 4.0] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185594807] [levelValue: 800] [[
-  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
-
-[2016-09-06T13:13:14.905-0500] [glassfish 4.0] [INFO] [realm.loaded.successfully] [javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185594905] [levelValue: 800] [[
-  SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
-
-[2016-09-06T13:13:14.909-0500] [glassfish 4.0] [INFO] [realm.loaded.successfully] [javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185594909] [levelValue: 800] [[
-  SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
-
-[2016-09-06T13:13:14.912-0500] [glassfish 4.0] [INFO] [realm.loaded.successfully] [javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185594912] [levelValue: 800] [[
-  SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
-
-[2016-09-06T13:13:15.179-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595179] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 10ms - bound to [/0.0.0.0:8.080]]]
-
-[2016-09-06T13:13:15.195-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595195] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 0ms - bound to [/0.0.0.0:8.181]]]
-
-[2016-09-06T13:13:15.200-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595200] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 1ms - bound to [/0.0.0.0:4.848]]]
-
-[2016-09-06T13:13:15.252-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core.security.org.glassfish.security.services.impl.authorization] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595252] [levelValue: 800] [[
-  Authorization Service has successfully initialized.]]
-
-[2016-09-06T13:13:15.278-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595278] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 1ms - bound to [/0.0.0.0:3.700]]]
-
-[2016-09-06T13:13:15.282-0500] [glassfish 4.0] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595282] [levelValue: 800] [[
-  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
-
-[2016-09-06T13:13:15.338-0500] [glassfish 4.0] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595338] [levelValue: 800] [[
-  HV000001: Hibernate Validator 5.0.0.Final]]
-
-[2016-09-06T13:13:15.637-0500] [glassfish 4.0] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185595637] [levelValue: 800] [[
-  GlassFish Server Open Source Edition  4.0  (89) startup time : Felix (2.402ms), startup services(882ms), total(3.284ms)]]
-
-[2016-09-06T13:13:15.662-0500] [glassfish 4.0] [INFO] [] [org.glassfish.jersey.server.ApplicationHandler] [tid: _ThreadID=63 _ThreadName=pool-14-thread-1] [timeMillis: 1473185595662] [levelValue: 800] [[
-  Initiating Jersey application, version Jersey: 2.0 2013-05-03 14:50:15...]]
-
-[2016-09-06T13:13:16.134-0500] [glassfish 4.0] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=65 _ThreadName=Thread-6] [timeMillis: 1473185596134] [levelValue: 800] [[
-  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://localhost:8686/jndi/rmi://localhost:8686/jmxrmi]]
-
-[2016-09-06T13:13:16.498-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185596498] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 1ms - bound to [/0.0.0.0:7.676]]]
-
-[2016-09-06T13:13:16.554-0500] [glassfish 4.0] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185596554] [levelValue: 800] [[
-  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@335ff8a2 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@edfb6fb.]]
-
-[2016-09-06T13:14:37.939-0500] [glassfish 4.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=33 _ThreadName=admin-listener(1)] [timeMillis: 1473185677939] [levelValue: 800] [[
-  Listening to REST requests at context: /command/domain.]]
-
-[2016-09-06T13:14:38.036-0500] [glassfish 4.0] [SEVERE] [java_security.expired_certificate] [javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl] [tid: _ThreadID=33 _ThreadName=admin-listener(1)] [timeMillis: 1473185678036] [levelValue: 1000] [[
-  SEC5054: Certificate has expired: [
-[
-  Version: V3
-  Subject: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
-
-  Key:  Sun RSA public key, 2048 bits
-  modulus: 23741889829347261660812437366387754385443431973861114865490414153884050331745811968523116847625570146592736935209718565296053386842135985534863157983128812774162998053673746470782252407673402238146869994438729551246768368782318393878374421033907597162218758024581735139682087126982809511479059100617027892880227587855877479432885604404402435662802390484099065871430585284534529627347717530352189612077130606642676951640071336717026459037542552927905851171460589361570392199748753414855675665635003335769915908187224347232807336022456537328962095005323382940080676931822787496212635993279098588863972868266229522169377
-  public exponent: 65537
-  Validity: [From: Fri Aug 14 09:50:00 COT 1998,
-               To: Wed Aug 14 18:59:00 COT 2013]
-  Issuer: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  SerialNumber: [    01b6]
-
-Certificate Extensions: 4
-[1]: ObjectId: 2.5.29.19 Criticality=true
-BasicConstraints:[
-  CA:true
-  PathLen:5
-]
-
-[2]: ObjectId: 2.5.29.32 Criticality=false
-CertificatePolicies [
-  [CertificatePolicyId: [1.2.840.113763.1.2.1.3]
-[]  ]
-]
-
-[3]: ObjectId: 2.5.29.15 Criticality=true
-KeyUsage [
-  Key_CertSign
-  Crl_Sign
-]
-
-[4]: ObjectId: 2.5.29.14 Criticality=false
-SubjectKeyIdentifier [
-KeyIdentifier [
-0000: 76 0A 49 21 38 4C 9F DE   F8 C4 49 C7 71 71 91 9D  v.I!8L....I.qq..
-]
-]
-
-]
-  Algorithm: [SHA1withRSA]
-  Signature:
-0000: 41 3A D4 18 5B DA B8 DE   21 1C E1 8E 09 E5 F1 68  A:..[...!......h
-0010: 34 FF DE 96 F4 07 F5 A7   3C F3 AC 4A B1 9B FA 92  4.......<..J....
-0020: FA 9B ED E6 32 21 AA 4A   76 C5 DC 4F 38 E5 DF D5  ....2!.Jv..O8...
-0030: 86 E4 D5 C8 76 7D 98 D7   B1 CD 8F 4D B5 91 23 6C  ....v......M..#l
-0040: 8B 8A EB EA 7C EF 14 94   C4 C6 F0 1F 4A 2D 32 71  ............J-2q
-0050: 63 2B 63 91 26 02 09 B6   80 1D ED E2 CC B8 7F DB  c+c.&...........
-0060: 87 63 C8 E1 D0 6C 26 B1   35 1D 40 66 10 1B CD 95  .c...l&.5.@f....
-0070: 54 18 33 61 EC 13 4F DA   13 F7 99 AF 3E D0 CF 8E  T.3a..O.....>...
-0080: A6 72 A2 B3 C3 05 9A C9   27 7D 92 CC 7E 52 8D B3  .r......'....R..
-0090: AB 70 6D 9E 89 9F 4D EB   1A 75 C2 98 AA D5 02 16  .pm...M..u......
-00A0: D7 0C 8A BF 25 E4 EB 2D   BC 98 E9 58 38 19 7C B9  ....%..-...X8...
-00B0: 37 FE DB E2 99 08 73 06   C7 97 83 6A 7D 10 01 2F  7.....s....j.../
-00C0: 32 B9 17 05 4A 65 E6 2F   CE BE 5E 53 A6 82 E9 9A  2...Je./..^S....
-00D0: 53 0A 84 74 2D 83 CA C8   94 16 76 5F 94 61 28 F0  S..t-.....v_.a(.
-00E0: 85 A7 39 BB D7 8B D9 A8   B2 13 1D 54 09 34 24 7D  ..9........T.4$.
-00F0: 20 81 7D 66 7E A2 90 74   5C 10 C6 BD EC AB 1B C2   ..f...t\.......
-
-]]]
-
-[2016-09-06T13:14:38.112-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=34 _ThreadName=admin-listener(2)] [timeMillis: 1473185678112] [levelValue: 1000] [[
-  At least one admin user has an empty password, which secure admin does not permit. Use the change-admin-password command or the admin console to create non-empty passwords for admin accounts.]]
-
-[2016-09-06T13:14:50.906-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=104 _ThreadName=Thread-16] [timeMillis: 1473185690906] [levelValue: 800] [[
-  Server restart initiated]]
-
-[2016-09-06T13:14:50.915-0500] [glassfish 4.0] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=104 _ThreadName=Thread-16] [timeMillis: 1473185690915] [levelValue: 800] [[
-  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@335ff8a2 from service registry.]]
-
-[2016-09-06T13:14:50.916-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=104 _ThreadName=Thread-3] [timeMillis: 1473185690916] [levelValue: 800] [[
-  FileMonitoring shutdown]]
-
-[2016-09-06T13:14:50.919-0500] [glassfish 4.0] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=104 _ThreadName=Thread-16] [timeMillis: 1473185690919] [levelValue: 800] [[
-  JMXStartupService: Stopped JMXConnectorServer: null]]
-
-[2016-09-06T13:14:50.919-0500] [glassfish 4.0] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=104 _ThreadName=Thread-16] [timeMillis: 1473185690919] [levelValue: 800] [[
-  JMXStartupService and JMXConnectors have been shut down.]]
-
-[2016-09-06T13:14:50.959-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=104 _ThreadName=Thread-3] [timeMillis: 1473185690959] [levelValue: 800] [[
-  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
-
-[2016-09-06T13:14:51.299-0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185691299] [levelValue: 800] [[
-  JVM invocation command line:
-/usr/lib/jvm/java-7-oracle/bin/java
--cp
-/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/modules/glassfish.jar
--XX:+UnlockDiagnosticVMOptions
--XX:MaxPermSize=192m
--XX:NewRatio=2
--Xmx512m
--javaagent:/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib/monitor/flashlight-agent.jar
--client
--Dosgi.shell.telnet.maxconn=1
--Dfelix.fileinstall.disableConfigSave=false
--Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
--Dfelix.fileinstall.dir=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/modules/autostart/
--Djavax.net.ssl.keyStore=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/keystore.jks
--Dosgi.shell.telnet.port=6666
--Djava.security.policy=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/server.policy
--Djava.awt.headless=true
--Dfelix.fileinstall.log.level=2
--Dfelix.fileinstall.poll=5000
--Dcom.sun.aas.instanceRoot=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1
--Dosgi.shell.telnet.ip=127.0.0.1
--Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
--Djava.endorsed.dirs=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/modules/endorsed:/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib/endorsed
--Dcom.sun.aas.installRoot=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish
--Dfelix.fileinstall.bundles.startTransient=true
--Djava.ext.dirs=/usr/lib/jvm/java-7-oracle/lib/ext:/usr/lib/jvm/java-7-oracle/jre/lib/ext:/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/lib/ext
--Dfelix.fileinstall.bundles.new.start=true
--Djavax.net.ssl.trustStore=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/cacerts.jks
--Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall
--Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
--Djava.security.auth.login.config=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1/config/login.conf
--DANTLR_USE_DIRECT_CLASS_LOADING=true
--Dgosh.args=--nointeractive
--Djava.library.path=/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-com.sun.enterprise.glassfish.bootstrap.ASMain
--domainname
-domain1
--asadmin-args
---host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=true,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains,,,domain1
--instancename
-server
--verbose
-false
--debug
-false
--asadmin-classpath
-/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/lib/client/appserver-cli.jar
--asadmin-classname
-com.sun.enterprise.admin.cli.AdminMain
--upgrade
-false
--type
-DAS
--domaindir
-/home/liliana/Escritorio/Laboratorio2Componentes/opt/glassfish4/glassfish/domains/domain1
--read-stdin
-true]]
-
-[2016-09-06T13:14:53.293-0500] [glassfish 4.0] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693293] [levelValue: 800] [[
-  Running GlassFish Version: GlassFish Server Open Source Edition  4.0  (build 89)]]
-
-[2016-09-06T13:14:53.295-0500] [glassfish 4.0] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693295] [levelValue: 800] [[
-  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
-
-[2016-09-06T13:14:53.385-0500] [glassfish 4.0] [INFO] [realm.loaded.successfully] [javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693385] [levelValue: 800] [[
-  SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
-
-[2016-09-06T13:14:53.388-0500] [glassfish 4.0] [INFO] [realm.loaded.successfully] [javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693388] [levelValue: 800] [[
-  SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
-
-[2016-09-06T13:14:53.392-0500] [glassfish 4.0] [INFO] [realm.loaded.successfully] [javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693392] [levelValue: 800] [[
-  SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
-
-[2016-09-06T13:14:53.594-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693594] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 11ms - bound to [/0.0.0.0:8.080]]]
-
-[2016-09-06T13:14:53.610-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693610] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 1ms - bound to [/0.0.0.0:8.181]]]
-
-[2016-09-06T13:14:53.645-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693645] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 0ms - bound to [/0.0.0.0:4.848]]]
-
-[2016-09-06T13:14:53.730-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core.security.org.glassfish.security.services.impl.authorization] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693730] [levelValue: 800] [[
-  Authorization Service has successfully initialized.]]
-
-[2016-09-06T13:14:53.752-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693752] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 1ms - bound to [/0.0.0.0:3.700]]]
-
-[2016-09-06T13:14:53.758-0500] [glassfish 4.0] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693758] [levelValue: 800] [[
-  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
-
-[2016-09-06T13:14:53.915-0500] [glassfish 4.0] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=54 _ThreadName=pool-5-thread-2] [timeMillis: 1473185693915] [levelValue: 800] [[
-  HV000001: Hibernate Validator 5.0.0.Final]]
-
-[2016-09-06T13:14:53.925-0500] [glassfish 4.0] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185693925] [levelValue: 800] [[
-  GlassFish Server Open Source Edition  4.0  (89) startup time : Felix (1.823ms), startup services(680ms), total(2.503ms)]]
-
-[2016-09-06T13:14:53.961-0500] [glassfish 4.0] [INFO] [] [org.glassfish.jersey.server.ApplicationHandler] [tid: _ThreadID=53 _ThreadName=pool-5-thread-1] [timeMillis: 1473185693961] [levelValue: 800] [[
-  Initiating Jersey application, version Jersey: 2.0 2013-05-03 14:50:15...]]
-
-[2016-09-06T13:14:54.339-0500] [glassfish 4.0] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=55 _ThreadName=Thread-6] [timeMillis: 1473185694339] [levelValue: 800] [[
-  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://localhost:8686/jndi/rmi://localhost:8686/jmxrmi]]
-
-[2016-09-06T13:14:54.502-0500] [glassfish 4.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=33 _ThreadName=admin-listener(2)] [timeMillis: 1473185694502] [levelValue: 800] [[
-  Listening to REST requests at context: /command/domain.]]
-
-[2016-09-06T13:14:54.579-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185694579] [levelValue: 800] [[
-  Grizzly Framework 2.3.1 started in: 1ms - bound to [/0.0.0.0:7.676]]]
-
-[2016-09-06T13:14:54.629-0500] [glassfish 4.0] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1473185694629] [levelValue: 800] [[
-  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@15ea8b32 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@45b9c497.]]
-
-[2016-09-06T13:16:57.129-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=63 _ThreadName=PingService] [timeMillis: 1473185817129] [levelValue: 800] [[
-  Domain Pinged: release.glassfish.org]]
-
-[2016-09-06T13:17:06.575-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185826575] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.web.glue, null) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.web.glue [115]], State = [READY]]]
-
-[2016-09-06T13:17:06.576-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185826576] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.web.javax.servlet.jsp, null) returned OSGiModuleImpl:: Bundle = [org.glassfish.web.javax.servlet.jsp [36]], State = [READY]]]
-
-[2016-09-06T13:17:06.904-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185826904] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:17:07.074-0500] [glassfish 4.0] [SEVERE] [java_security.expired_certificate] [javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827074] [levelValue: 1000] [[
-  SEC5054: Certificate has expired: [
-[
-  Version: V3
-  Subject: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
-
-  Key:  Sun RSA public key, 2048 bits
-  modulus: 23741889829347261660812437366387754385443431973861114865490414153884050331745811968523116847625570146592736935209718565296053386842135985534863157983128812774162998053673746470782252407673402238146869994438729551246768368782318393878374421033907597162218758024581735139682087126982809511479059100617027892880227587855877479432885604404402435662802390484099065871430585284534529627347717530352189612077130606642676951640071336717026459037542552927905851171460589361570392199748753414855675665635003335769915908187224347232807336022456537328962095005323382940080676931822787496212635993279098588863972868266229522169377
-  public exponent: 65537
-  Validity: [From: Fri Aug 14 09:50:00 COT 1998,
-               To: Wed Aug 14 18:59:00 COT 2013]
-  Issuer: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  SerialNumber: [    01b6]
-
-Certificate Extensions: 4
-[1]: ObjectId: 2.5.29.19 Criticality=true
-BasicConstraints:[
-  CA:true
-  PathLen:5
-]
-
-[2]: ObjectId: 2.5.29.32 Criticality=false
-CertificatePolicies [
-  [CertificatePolicyId: [1.2.840.113763.1.2.1.3]
-[]  ]
-]
-
-[3]: ObjectId: 2.5.29.15 Criticality=true
-KeyUsage [
-  Key_CertSign
-  Crl_Sign
-]
-
-[4]: ObjectId: 2.5.29.14 Criticality=false
-SubjectKeyIdentifier [
-KeyIdentifier [
-0000: 76 0A 49 21 38 4C 9F DE   F8 C4 49 C7 71 71 91 9D  v.I!8L....I.qq..
-]
-]
-
-]
-  Algorithm: [SHA1withRSA]
-  Signature:
-0000: 41 3A D4 18 5B DA B8 DE   21 1C E1 8E 09 E5 F1 68  A:..[...!......h
-0010: 34 FF DE 96 F4 07 F5 A7   3C F3 AC 4A B1 9B FA 92  4.......<..J....
-0020: FA 9B ED E6 32 21 AA 4A   76 C5 DC 4F 38 E5 DF D5  ....2!.Jv..O8...
-0030: 86 E4 D5 C8 76 7D 98 D7   B1 CD 8F 4D B5 91 23 6C  ....v......M..#l
-0040: 8B 8A EB EA 7C EF 14 94   C4 C6 F0 1F 4A 2D 32 71  ............J-2q
-0050: 63 2B 63 91 26 02 09 B6   80 1D ED E2 CC B8 7F DB  c+c.&...........
-0060: 87 63 C8 E1 D0 6C 26 B1   35 1D 40 66 10 1B CD 95  .c...l&.5.@f....
-0070: 54 18 33 61 EC 13 4F DA   13 F7 99 AF 3E D0 CF 8E  T.3a..O.....>...
-0080: A6 72 A2 B3 C3 05 9A C9   27 7D 92 CC 7E 52 8D B3  .r......'....R..
-0090: AB 70 6D 9E 89 9F 4D EB   1A 75 C2 98 AA D5 02 16  .pm...M..u......
-00A0: D7 0C 8A BF 25 E4 EB 2D   BC 98 E9 58 38 19 7C B9  ....%..-...X8...
-00B0: 37 FE DB E2 99 08 73 06   C7 97 83 6A 7D 10 01 2F  7.....s....j.../
-00C0: 32 B9 17 05 4A 65 E6 2F   CE BE 5E 53 A6 82 E9 9A  2...Je./..^S....
-00D0: 53 0A 84 74 2D 83 CA C8   94 16 76 5F 94 61 28 F0  S..t-.....v_.a(.
-00E0: 85 A7 39 BB D7 8B D9 A8   B2 13 1D 54 09 34 24 7D  ..9........T.4$.
-00F0: 20 81 7D 66 7E A2 90 74   5C 10 C6 BD EC AB 1B C2   ..f...t\.......
-
-]]]
-
-[2016-09-06T13:17:07.082-0500] [glassfish 4.0] [INFO] [security.secmgroff] [javax.enterprise.system.core.security.com.sun.enterprise.security] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827082] [levelValue: 800] [[
-  SEC1002: Security Manager is OFF.]]
-
-[2016-09-06T13:17:07.089-0500] [glassfish 4.0] [INFO] [sec.service.startup.enter] [javax.enterprise.system.core.security.com.sun.enterprise.security] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827089] [levelValue: 800] [[
-  SEC1010: Entering Security Startup Service]]
-
-[2016-09-06T13:17:07.091-0500] [glassfish 4.0] [INFO] [policy.loading] [javax.enterprise.system.core.security.com.sun.enterprise.security] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827091] [levelValue: 800] [[
-  SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
-
-[2016-09-06T13:17:07.147-0500] [glassfish 4.0] [INFO] [sec.service.startup.exit] [javax.enterprise.system.core.security.com.sun.enterprise.security] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827147] [levelValue: 800] [[
-  SEC1011: Security Service(s) Started Successfully]]
-
-[2016-09-06T13:17:07.246-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827246] [levelValue: 800] [[
-  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
-
-[2016-09-06T13:17:07.251-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827251] [levelValue: 800] [[
-  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
-
-[2016-09-06T13:17:07.253-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827253] [levelValue: 800] [[
-  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
-
-[2016-09-06T13:17:07.270-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827270] [levelValue: 800] [[
-  Created virtual server server]]
-
-[2016-09-06T13:17:07.272-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827272] [levelValue: 800] [[
-  Created virtual server __asadmin]]
-
-[2016-09-06T13:17:07.345-0500] [glassfish 4.0] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827345] [levelValue: 800] [[
-  Setting JAAS app name glassfish-web]]
-
-[2016-09-06T13:17:07.346-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827346] [levelValue: 800] [[
-  Virtual server server loaded default web module ]]
-
-[2016-09-06T13:17:07.502-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827502] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:17:07.512-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827512] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:17:07.820-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185827820] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T13:17:08.029-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185828029] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.ClienteBean, reason: java.lang.NoClassDefFoundError: com/losalpes/servicios/IServicioCliente]]
-
-[2016-09-06T13:17:08.040-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185828040] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.LoginBean, reason: java.lang.NoClassDefFoundError: com/losalpes/excepciones/AutenticacionException]]
-
-[2016-09-06T13:17:08.040-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185828040] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.CatalogoBean, reason: java.lang.NoClassDefFoundError: com/losalpes/servicios/IServicioCatalogo]]
-
-[2016-09-06T13:17:08.627-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185828627] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T13:17:08.703-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473185828703] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 2.177 milliseconds.]]
-
-[2016-09-06T13:23:35.033-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=33 _ThreadName=admin-listener(2)] [timeMillis: 1473186215033] [levelValue: 1000] [[
-  Application with name Lab2-MueblesDeLosAlpes-war is already registered. Either specify that redeployment must be forced, or redeploy the application. Or if this is a new deployment, pick a different name]]
-
-[2016-09-06T13:28:00.426-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=32 _ThreadName=admin-listener(1)] [timeMillis: 1473186480426] [levelValue: 1000] [[
-  Application with name Lab2-MueblesDeLosAlpes-war is already registered. Either specify that redeployment must be forced, or redeploy the application. Or if this is a new deployment, pick a different name]]
-
-[2016-09-06T13:29:08.533-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548533] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:29:08.600-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548600] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-common, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-common [263]], State = [READY]]]
-
-[2016-09-06T13:29:08.600-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548600] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.hk2.hk2, 2.1.92) returned OSGiModuleImpl:: Bundle = [org.glassfish.hk2.hk2 [60]], State = [READY]]]
-
-[2016-09-06T13:29:08.601-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548601] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-plugin-service, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-plugin-service [65]], State = [READY]]]
-
-[2016-09-06T13:29:08.603-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548603] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.deployment.deployment-client, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.deployment.deployment-client [127]], State = [READY]]]
-
-[2016-09-06T13:29:08.603-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548603] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.registration.registration-api, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.registration.registration-api [33]], State = [READY]]]
-
-[2016-09-06T13:29:08.604-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548604] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.registration.registration-impl, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.registration.registration-impl [266]], State = [READY]]]
-
-[2016-09-06T13:29:08.604-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548604] [levelValue: 800] [[
-  this.makeModuleFor(javax.servlet-api, 3.1.0) returned OSGiModuleImpl:: Bundle = [javax.servlet-api [10]], State = [READY]]]
-
-[2016-09-06T13:29:08.604-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548604] [levelValue: 800] [[
-  this.makeModuleFor(javax.servlet.jsp-api, 2.3.1) returned OSGiModuleImpl:: Bundle = [javax.servlet.jsp-api [53]], State = [READY]]]
-
-[2016-09-06T13:29:08.605-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548605] [levelValue: 800] [[
-  this.makeModuleFor(com.sun.el.javax.el, 3.0.0) returned OSGiModuleImpl:: Bundle = [com.sun.el.javax.el [76]], State = [READY]]]
-
-[2016-09-06T13:29:08.605-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548605] [levelValue: 800] [[
-  this.makeModuleFor(com.sun.jsftemplating, 2.1.0) returned OSGiModuleImpl:: Bundle = [com.sun.jsftemplating [99]], State = [READY]]]
-
-[2016-09-06T13:29:08.605-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548605] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.dataprovider, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.dataprovider [169]], State = [READY]]]
-
-[2016-09-06T13:29:08.605-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548605] [levelValue: 800] [[
-  this.makeModuleFor(com.sun.pkg.client, 1.0.0) returned OSGiModuleImpl:: Bundle = [com.sun.pkg.client [239]], State = [READY]]]
-
-[2016-09-06T13:29:08.606-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548606] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jca-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jca-plugin [276]], State = [READY]]]
-
-[2016-09-06T13:29:08.606-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548606] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-corba-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-corba-plugin [5]], State = [READY]]]
-
-[2016-09-06T13:29:08.606-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548606] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-web-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-web-plugin [125]], State = [READY]]]
-
-[2016-09-06T13:29:08.606-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548606] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-community-branding-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-community-branding-plugin [38]], State = [READY]]]
-
-[2016-09-06T13:29:08.606-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548606] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jts-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jts-plugin [37]], State = [READY]]]
-
-[2016-09-06T13:29:08.607-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548607] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-ejb-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-ejb-plugin [244]], State = [READY]]]
-
-[2016-09-06T13:29:08.607-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548607] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-common-full-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-common-full-plugin [40]], State = [READY]]]
-
-[2016-09-06T13:29:08.607-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548607] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-common, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-common [263]], State = [READY]]]
-
-[2016-09-06T13:29:08.607-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548607] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-concurrent-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-concurrent-plugin [199]], State = [READY]]]
-
-[2016-09-06T13:29:08.607-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548607] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jms-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jms-plugin [132]], State = [READY]]]
-
-[2016-09-06T13:29:08.607-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548607] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-cluster-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-cluster-plugin [47]], State = [READY]]]
-
-[2016-09-06T13:29:08.608-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548608] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-ejb-lite-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-ejb-lite-plugin [68]], State = [READY]]]
-
-[2016-09-06T13:29:08.608-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548608] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-updatecenter-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-updatecenter-plugin [251]], State = [READY]]]
-
-[2016-09-06T13:29:08.608-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548608] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jdbc-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jdbc-plugin [133]], State = [READY]]]
-
-[2016-09-06T13:29:08.682-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548682] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:29:08.688-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548688] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:29:08.690-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548690] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:29:08.785-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548785] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-common, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-common [263]], State = [READY]]]
-
-[2016-09-06T13:29:08.785-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548785] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.hk2.hk2, 2.1.92) returned OSGiModuleImpl:: Bundle = [org.glassfish.hk2.hk2 [60]], State = [READY]]]
-
-[2016-09-06T13:29:08.785-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548785] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-plugin-service, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-plugin-service [65]], State = [READY]]]
-
-[2016-09-06T13:29:08.785-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548785] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.deployment.deployment-client, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.deployment.deployment-client [127]], State = [READY]]]
-
-[2016-09-06T13:29:08.786-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548786] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.registration.registration-api, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.registration.registration-api [33]], State = [READY]]]
-
-[2016-09-06T13:29:08.786-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548786] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.registration.registration-impl, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.registration.registration-impl [266]], State = [READY]]]
-
-[2016-09-06T13:29:08.786-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548786] [levelValue: 800] [[
-  this.makeModuleFor(javax.servlet-api, 3.1.0) returned OSGiModuleImpl:: Bundle = [javax.servlet-api [10]], State = [READY]]]
-
-[2016-09-06T13:29:08.786-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548786] [levelValue: 800] [[
-  this.makeModuleFor(javax.servlet.jsp-api, 2.3.1) returned OSGiModuleImpl:: Bundle = [javax.servlet.jsp-api [53]], State = [READY]]]
-
-[2016-09-06T13:29:08.786-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548786] [levelValue: 800] [[
-  this.makeModuleFor(com.sun.el.javax.el, 3.0.0) returned OSGiModuleImpl:: Bundle = [com.sun.el.javax.el [76]], State = [READY]]]
-
-[2016-09-06T13:29:08.786-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548786] [levelValue: 800] [[
-  this.makeModuleFor(com.sun.jsftemplating, 2.1.0) returned OSGiModuleImpl:: Bundle = [com.sun.jsftemplating [99]], State = [READY]]]
-
-[2016-09-06T13:29:08.787-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548787] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.dataprovider, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.dataprovider [169]], State = [READY]]]
-
-[2016-09-06T13:29:08.787-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548787] [levelValue: 800] [[
-  this.makeModuleFor(com.sun.pkg.client, 1.0.0) returned OSGiModuleImpl:: Bundle = [com.sun.pkg.client [239]], State = [READY]]]
-
-[2016-09-06T13:29:08.787-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548787] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jca-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jca-plugin [276]], State = [READY]]]
-
-[2016-09-06T13:29:08.787-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548787] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-corba-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-corba-plugin [5]], State = [READY]]]
-
-[2016-09-06T13:29:08.787-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548787] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-web-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-web-plugin [125]], State = [READY]]]
-
-[2016-09-06T13:29:08.787-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548787] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-community-branding-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-community-branding-plugin [38]], State = [READY]]]
-
-[2016-09-06T13:29:08.788-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548788] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jts-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jts-plugin [37]], State = [READY]]]
-
-[2016-09-06T13:29:08.788-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548788] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-ejb-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-ejb-plugin [244]], State = [READY]]]
-
-[2016-09-06T13:29:08.788-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548788] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-common-full-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-common-full-plugin [40]], State = [READY]]]
-
-[2016-09-06T13:29:08.788-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548788] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-common, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-common [263]], State = [READY]]]
-
-[2016-09-06T13:29:08.789-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548789] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-concurrent-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-concurrent-plugin [199]], State = [READY]]]
-
-[2016-09-06T13:29:08.789-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548789] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jms-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jms-plugin [132]], State = [READY]]]
-
-[2016-09-06T13:29:08.789-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548789] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-cluster-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-cluster-plugin [47]], State = [READY]]]
-
-[2016-09-06T13:29:08.789-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548789] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-ejb-lite-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-ejb-lite-plugin [68]], State = [READY]]]
-
-[2016-09-06T13:29:08.790-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548790] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-updatecenter-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-updatecenter-plugin [251]], State = [READY]]]
-
-[2016-09-06T13:29:08.790-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186548790] [levelValue: 800] [[
-  this.makeModuleFor(org.glassfish.main.admingui.console-jdbc-plugin, 4.0.0) returned OSGiModuleImpl:: Bundle = [org.glassfish.main.admingui.console-jdbc-plugin [133]], State = [READY]]]
-
-[2016-09-06T13:29:09.511-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186549511] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '']]
-
-[2016-09-06T13:29:09.515-0500] [glassfish 4.0] [INFO] [] [org.glassfish.jersey.server.ApplicationHandler] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473186549515] [levelValue: 800] [[
-  Initiating Jersey application, version Jersey: 2.0 2013-05-03 14:50:15...]]
-
-[2016-09-06T13:29:09.913-0500] [glassfish 4.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473186549913] [levelValue: 800] [[
-  Listening to REST requests at context: /management/domain.]]
-
-[2016-09-06T13:29:10.390-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186550390] [levelValue: 800] [[
-  Loading application [__admingui] at [/]]]
-
-[2016-09-06T13:29:10.391-0500] [glassfish 4.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=126 _ThreadName=Thread-17] [timeMillis: 1473186550391] [levelValue: 800] [[
-  Loading application __admingui done in 2.006 ms]]
-
-[2016-09-06T13:29:10.784-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=33 _ThreadName=admin-listener(2)] [timeMillis: 1473186550784] [levelValue: 900] [[
-  Context path from ServletContext:  differs from path from bundle: /]]
-
-[2016-09-06T13:29:11.326-0500] [glassfish 4.0] [SEVERE] [java_security.expired_certificate] [javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl] [tid: _ThreadID=33 _ThreadName=admin-listener(2)] [timeMillis: 1473186551326] [levelValue: 1000] [[
-  SEC5054: Certificate has expired: [
-[
-  Version: V3
-  Subject: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
-
-  Key:  Sun RSA public key, 2048 bits
-  modulus: 23741889829347261660812437366387754385443431973861114865490414153884050331745811968523116847625570146592736935209718565296053386842135985534863157983128812774162998053673746470782252407673402238146869994438729551246768368782318393878374421033907597162218758024581735139682087126982809511479059100617027892880227587855877479432885604404402435662802390484099065871430585284534529627347717530352189612077130606642676951640071336717026459037542552927905851171460589361570392199748753414855675665635003335769915908187224347232807336022456537328962095005323382940080676931822787496212635993279098588863972868266229522169377
-  public exponent: 65537
-  Validity: [From: Fri Aug 14 09:50:00 COT 1998,
-               To: Wed Aug 14 18:59:00 COT 2013]
-  Issuer: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  SerialNumber: [    01b6]
-
-Certificate Extensions: 4
-[1]: ObjectId: 2.5.29.19 Criticality=true
-BasicConstraints:[
-  CA:true
-  PathLen:5
-]
-
-[2]: ObjectId: 2.5.29.32 Criticality=false
-CertificatePolicies [
-  [CertificatePolicyId: [1.2.840.113763.1.2.1.3]
-[]  ]
-]
-
-[3]: ObjectId: 2.5.29.15 Criticality=true
-KeyUsage [
-  Key_CertSign
-  Crl_Sign
-]
-
-[4]: ObjectId: 2.5.29.14 Criticality=false
-SubjectKeyIdentifier [
-KeyIdentifier [
-0000: 76 0A 49 21 38 4C 9F DE   F8 C4 49 C7 71 71 91 9D  v.I!8L....I.qq..
-]
-]
-
-]
-  Algorithm: [SHA1withRSA]
-  Signature:
-0000: 41 3A D4 18 5B DA B8 DE   21 1C E1 8E 09 E5 F1 68  A:..[...!......h
-0010: 34 FF DE 96 F4 07 F5 A7   3C F3 AC 4A B1 9B FA 92  4.......<..J....
-0020: FA 9B ED E6 32 21 AA 4A   76 C5 DC 4F 38 E5 DF D5  ....2!.Jv..O8...
-0030: 86 E4 D5 C8 76 7D 98 D7   B1 CD 8F 4D B5 91 23 6C  ....v......M..#l
-0040: 8B 8A EB EA 7C EF 14 94   C4 C6 F0 1F 4A 2D 32 71  ............J-2q
-0050: 63 2B 63 91 26 02 09 B6   80 1D ED E2 CC B8 7F DB  c+c.&...........
-0060: 87 63 C8 E1 D0 6C 26 B1   35 1D 40 66 10 1B CD 95  .c...l&.5.@f....
-0070: 54 18 33 61 EC 13 4F DA   13 F7 99 AF 3E D0 CF 8E  T.3a..O.....>...
-0080: A6 72 A2 B3 C3 05 9A C9   27 7D 92 CC 7E 52 8D B3  .r......'....R..
-0090: AB 70 6D 9E 89 9F 4D EB   1A 75 C2 98 AA D5 02 16  .pm...M..u......
-00A0: D7 0C 8A BF 25 E4 EB 2D   BC 98 E9 58 38 19 7C B9  ....%..-...X8...
-00B0: 37 FE DB E2 99 08 73 06   C7 97 83 6A 7D 10 01 2F  7.....s....j.../
-00C0: 32 B9 17 05 4A 65 E6 2F   CE BE 5E 53 A6 82 E9 9A  2...Je./..^S....
-00D0: 53 0A 84 74 2D 83 CA C8   94 16 76 5F 94 61 28 F0  S..t-.....v_.a(.
-00E0: 85 A7 39 BB D7 8B D9 A8   B2 13 1D 54 09 34 24 7D  ..9........T.4$.
-00F0: 20 81 7D 66 7E A2 90 74   5C 10 C6 BD EC AB 1B C2   ..f...t\.......
-
-]]]
-
-[2016-09-06T13:29:12.486-0500] [glassfish 4.0] [SEVERE] [java_security.expired_certificate] [javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473186552486] [levelValue: 1000] [[
-  SEC5054: Certificate has expired: [
-[
-  Version: V3
-  Subject: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
-
-  Key:  Sun RSA public key, 2048 bits
-  modulus: 23741889829347261660812437366387754385443431973861114865490414153884050331745811968523116847625570146592736935209718565296053386842135985534863157983128812774162998053673746470782252407673402238146869994438729551246768368782318393878374421033907597162218758024581735139682087126982809511479059100617027892880227587855877479432885604404402435662802390484099065871430585284534529627347717530352189612077130606642676951640071336717026459037542552927905851171460589361570392199748753414855675665635003335769915908187224347232807336022456537328962095005323382940080676931822787496212635993279098588863972868266229522169377
-  public exponent: 65537
-  Validity: [From: Fri Aug 14 09:50:00 COT 1998,
-               To: Wed Aug 14 18:59:00 COT 2013]
-  Issuer: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
-  SerialNumber: [    01b6]
-
-Certificate Extensions: 4
-[1]: ObjectId: 2.5.29.19 Criticality=true
-BasicConstraints:[
-  CA:true
-  PathLen:5
-]
-
-[2]: ObjectId: 2.5.29.32 Criticality=false
-CertificatePolicies [
-  [CertificatePolicyId: [1.2.840.113763.1.2.1.3]
-[]  ]
-]
-
-[3]: ObjectId: 2.5.29.15 Criticality=true
-KeyUsage [
-  Key_CertSign
-  Crl_Sign
-]
-
-[4]: ObjectId: 2.5.29.14 Criticality=false
-SubjectKeyIdentifier [
-KeyIdentifier [
-0000: 76 0A 49 21 38 4C 9F DE   F8 C4 49 C7 71 71 91 9D  v.I!8L....I.qq..
-]
-]
-
-]
-  Algorithm: [SHA1withRSA]
-  Signature:
-0000: 41 3A D4 18 5B DA B8 DE   21 1C E1 8E 09 E5 F1 68  A:..[...!......h
-0010: 34 FF DE 96 F4 07 F5 A7   3C F3 AC 4A B1 9B FA 92  4.......<..J....
-0020: FA 9B ED E6 32 21 AA 4A   76 C5 DC 4F 38 E5 DF D5  ....2!.Jv..O8...
-0030: 86 E4 D5 C8 76 7D 98 D7   B1 CD 8F 4D B5 91 23 6C  ....v......M..#l
-0040: 8B 8A EB EA 7C EF 14 94   C4 C6 F0 1F 4A 2D 32 71  ............J-2q
-0050: 63 2B 63 91 26 02 09 B6   80 1D ED E2 CC B8 7F DB  c+c.&...........
-0060: 87 63 C8 E1 D0 6C 26 B1   35 1D 40 66 10 1B CD 95  .c...l&.5.@f....
-0070: 54 18 33 61 EC 13 4F DA   13 F7 99 AF 3E D0 CF 8E  T.3a..O.....>...
-0080: A6 72 A2 B3 C3 05 9A C9   27 7D 92 CC 7E 52 8D B3  .r......'....R..
-0090: AB 70 6D 9E 89 9F 4D EB   1A 75 C2 98 AA D5 02 16  .pm...M..u......
-00A0: D7 0C 8A BF 25 E4 EB 2D   BC 98 E9 58 38 19 7C B9  ....%..-...X8...
-00B0: 37 FE DB E2 99 08 73 06   C7 97 83 6A 7D 10 01 2F  7.....s....j.../
-00C0: 32 B9 17 05 4A 65 E6 2F   CE BE 5E 53 A6 82 E9 9A  2...Je./..^S....
-00D0: 53 0A 84 74 2D 83 CA C8   94 16 76 5F 94 61 28 F0  S..t-.....v_.a(.
-00E0: 85 A7 39 BB D7 8B D9 A8   B2 13 1D 54 09 34 24 7D  ..9........T.4$.
-00F0: 20 81 7D 66 7E A2 90 74   5C 10 C6 BD EC AB 1B C2   ..f...t\.......
-
-]]]
-
-[2016-09-06T13:29:12.558-0500] [glassfish 4.0] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473186552558] [levelValue: 800] [[
-  Redirecting to /index.jsf]]
-
-[2016-09-06T13:29:12.716-0500] [glassfish 4.0] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473186552716] [levelValue: 800] [[
-  Admin Console: Initializing Session Attributes...]]
-
-[2016-09-06T13:37:48.653-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068653] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:37:48.680-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068680] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:37:48.682-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068682] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:37:48.723-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068723] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T13:37:48.750-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068750] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.ClienteBean, reason: java.lang.NoClassDefFoundError: com/losalpes/servicios/IServicioCliente]]
-
-[2016-09-06T13:37:48.751-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068751] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.LoginBean, reason: java.lang.NoClassDefFoundError: com/losalpes/excepciones/AutenticacionException]]
-
-[2016-09-06T13:37:48.752-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068752] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.CatalogoBean, reason: java.lang.NoClassDefFoundError: com/losalpes/servicios/IServicioCatalogo]]
-
-[2016-09-06T13:37:48.821-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068821] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T13:37:48.822-0500] [glassfish 4.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=175 _ThreadName=pool-54-thread-1] [timeMillis: 1473187068822] [levelValue: 800] [[
-  Loading application Lab2-MueblesDeLosAlpes-war done in 173 ms]]
-
-[2016-09-06T13:38:53.964-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=32 _ThreadName=admin-listener(1)] [timeMillis: 1473187133964] [levelValue: 900] [[
-  StandardWrapperValve[FacesServlet]: Servlet.service() for servlet FacesServlet threw exception
-java.util.ConcurrentModificationException
-	at java.util.LinkedHashMap$LinkedHashIterator.nextEntry(LinkedHashMap.java:394)
-	at java.util.LinkedHashMap$EntryIterator.next(LinkedHashMap.java:413)
-	at java.util.LinkedHashMap$EntryIterator.next(LinkedHashMap.java:412)
-	at java.util.AbstractMap.toString(AbstractMap.java:518)
-	at java.lang.String.valueOf(String.java:2847)
-	at java.lang.StringBuilder.append(StringBuilder.java:128)
-	at java.util.AbstractMap.toString(AbstractMap.java:523)
-	at java.lang.String.valueOf(String.java:2847)
-	at java.lang.StringBuilder.append(StringBuilder.java:128)
-	at com.sun.webui.jsf.faces.UIComponentELResolver.getValue(UIComponentELResolver.java:60)
-	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
-	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
-	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
-	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
-	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+[2016-09-06T19:58:13.150-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.application] [tid: _ThreadID=79 _ThreadName=http-listener-1(1)] [timeMillis: 1473209893150] [levelValue: 1000] [[
+  Error Rendering View[/carrito-compras.xhtml]
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
 	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
 	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
-	at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
-	at javax.faces.component.UIInput.getValue(UIInput.java:291)
-	at com.sun.webui.jsf.component.TabSet.getValue(TabSet.java:131)
-	at com.sun.webui.jsf.component.TabSet.getSelected(TabSet.java:295)
-	at com.sun.webui.jsf.renderkit.html.TabSetRenderer.renderLevel(TabSetRenderer.java:354)
-	at com.sun.webui.jsf.renderkit.html.TabSetRenderer.encodeChildren(TabSetRenderer.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
 	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encodeChild(LayoutElementBase.java:551)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encodeChild(LayoutElementBase.java:555)
-	at com.sun.jsftemplating.layout.descriptors.LayoutComponent.encode(LayoutComponent.java:243)
-	at com.sun.jsftemplating.layout.descriptors.LayoutInsert.encodeChildren(LayoutInsert.java:125)
-	at com.sun.jsftemplating.layout.descriptors.LayoutInsert.encodeThis(LayoutInsert.java:107)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encode(LayoutElementBase.java:330)
-	at com.sun.jsftemplating.layout.descriptors.LayoutComposition.encodeThis(LayoutComposition.java:161)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encode(LayoutElementBase.java:330)
-	at com.sun.jsftemplating.layout.descriptors.LayoutComposition.encodeThis(LayoutComposition.java:161)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encode(LayoutElementBase.java:330)
-	at com.sun.jsftemplating.layout.descriptors.LayoutComposition.encodeThis(LayoutComposition.java:161)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encode(LayoutElementBase.java:330)
-	at com.sun.jsftemplating.layout.descriptors.LayoutElementBase.encode(LayoutElementBase.java:348)
-	at com.sun.jsftemplating.layout.descriptors.LayoutDefinition.encode(LayoutDefinition.java:246)
-	at com.sun.jsftemplating.layout.LayoutViewHandler.renderView(LayoutViewHandler.java:683)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
 	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
 	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
 	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:344)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
-	at com.sun.webui.jsf.util.UploadFilter.doFilter(UploadFilter.java:233)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:256)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:316)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
 	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
-	at org.apache.catalina.core.StandardPipeline.doChainInvoke(StandardPipeline.java:678)
-	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:97)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
 	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
-	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:246)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
 	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
 	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
 	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
@@ -871,317 +50,50 @@ java.util.ConcurrentModificationException
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
 	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
 ]]
 
-[2016-09-06T13:40:10.098-0500] [glassfish 4.0] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=33 _ThreadName=admin-listener(2)] [timeMillis: 1473187210098] [levelValue: 800] [[
-  uploadFileName=primefaces-5.2.jar]]
-
-[2016-09-06T13:40:10.315-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473187210315] [levelValue: 1000] [[
-  Archive type of /tmp/primefaces-54386123205762444410.2.jar was not recognized]]
-
-[2016-09-06T13:40:10.317-0500] [glassfish 4.0] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=33 _ThreadName=admin-listener(2)] [timeMillis: 1473187210317] [levelValue: 800] [[
-  Exception Occurred :Archive type of /tmp/primefaces-54386123205762444410.2.jar was not recognized]]
-
-[2016-09-06T13:40:19.097-0500] [glassfish 4.0] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187219097] [levelValue: 800] [[
-  uploadFileName=Lab2-MueblesDeLosAlpes-war.war]]
-
-[2016-09-06T13:40:19.351-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219351] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:40:19.379-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219379] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:40:19.380-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219380] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:40:19.418-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219418] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T13:40:19.444-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219444] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.ClienteBean, reason: java.lang.NoClassDefFoundError: com/losalpes/servicios/IServicioCliente]]
-
-[2016-09-06T13:40:19.446-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219446] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.LoginBean, reason: java.lang.NoClassDefFoundError: com/losalpes/excepciones/AutenticacionException]]
-
-[2016-09-06T13:40:19.446-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219446] [levelValue: 1000] [[
-  Unable to load annotated class: com.losalpes.beans.CatalogoBean, reason: java.lang.NoClassDefFoundError: com/losalpes/servicios/IServicioCatalogo]]
-
-[2016-09-06T13:40:19.498-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219498] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T13:40:19.513-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473187219513] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 225 milliseconds.]]
-
-[2016-09-06T13:49:32.817-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187772817] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:49:32.920-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187772920] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:49:32.923-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187772923] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:49:32.924-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187772924] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:49:32.925-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187772925] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:49:32.926-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187772926] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T13:49:33.328-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187773328] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T13:49:33.631-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187773631] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T13:49:33.635-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187773635] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T13:49:33.642-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473187773642] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 970 milliseconds.]]
-
-[2016-09-06T14:04:30.875-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188670875] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:04:30.935-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188670935] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:04:30.937-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188670937] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:04:30.937-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188670937] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:04:30.938-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188670938] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:04:30.939-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188670939] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:04:31.252-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188671252] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:04:31.467-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188671467] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:04:31.471-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188671471] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:04:31.477-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473188671477] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 702 milliseconds.]]
-
-[2016-09-06T14:05:07.839-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188707839] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:05:07.901-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188707901] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:05:07.903-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188707903] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:05:07.903-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188707903] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:05:07.904-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188707904] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:05:07.904-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188707904] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:05:08.222-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188708222] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:05:08.415-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188708415] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:05:08.423-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188708423] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:05:08.430-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473188708430] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 699 milliseconds.]]
-
-[2016-09-06T14:06:18.759-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188778759] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:06:18.817-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188778817] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:06:18.819-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188778819] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:06:18.819-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188778819] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:06:18.820-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188778820] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:06:18.820-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188778820] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:06:19.304-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188779304] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:06:19.493-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188779493] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:06:19.498-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188779498] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:06:19.505-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=36 _ThreadName=admin-listener(5)] [timeMillis: 1473188779505] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 837 milliseconds.]]
-
-[2016-09-06T14:23:12.166-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792166] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:12.226-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792226] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:12.228-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792228] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:12.228-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792228] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:12.229-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792229] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:12.230-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792230] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:12.517-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792517] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:23:12.742-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792742] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:23:12.762-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792762] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:23:12.769-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=153 _ThreadName=admin-listener(7)] [timeMillis: 1473189792769] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 759 milliseconds.]]
-
-[2016-09-06T14:23:19.514-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799514] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:19.571-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799571] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:19.572-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799572] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:19.573-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799573] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:19.574-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799574] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:19.574-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799574] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:23:19.862-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189799862] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:23:20.048-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189800048] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:23:20.084-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189800084] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:23:20.090-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=35 _ThreadName=admin-listener(4)] [timeMillis: 1473189800090] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 710 milliseconds.]]
-
-[2016-09-06T14:23:30.329-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473189810329] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:23:30.330-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473189810330] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:27:18.956-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190038956] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:19.029-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039029] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:19.031-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039031] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:19.031-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039031] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:19.032-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039032] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:19.032-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039032] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:19.324-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039324] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:27:19.632-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039632] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:27:19.664-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039664] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:27:19.676-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=34 _ThreadName=admin-listener(3)] [timeMillis: 1473190039676] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 851 milliseconds.]]
-
-[2016-09-06T14:27:30.130-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050130] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:30.193-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050193] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:30.195-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050195] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:30.195-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050195] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:30.196-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050196] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:30.196-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050196] [levelValue: 800] [[
-  visiting unvisited references]]
-
-[2016-09-06T14:27:30.450-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050450] [levelValue: 800] [[
-  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
-
-[2016-09-06T14:27:30.633-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050633] [levelValue: 800] [[
-  Running on PrimeFaces 5.2]]
-
-[2016-09-06T14:27:30.651-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050651] [levelValue: 800] [[
-  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
-
-[2016-09-06T14:27:30.659-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=149 _ThreadName=admin-listener(6)] [timeMillis: 1473190050659] [levelValue: 800] [[
-  Lab2-MueblesDeLosAlpes-war was successfully deployed in 631 milliseconds.]]
-
-[2016-09-06T14:29:22.098-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190162098] [levelValue: 1100] [[
-  JSF1073: se ha interceptado javax.faces.view.facelets.FaceletException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=Error Parsing /menu-administrador.xhtml: Error Traced[line: 33] El tipo de elemento "h:panelGroup" debe finalizar por la etiqueta final coincidente "</h:panelGroup>".]]
-
-[2016-09-06T14:29:22.099-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190162099] [levelValue: 1100] [[
-  Error Parsing /menu-administrador.xhtml: Error Traced[line: 33] El tipo de elemento "h:panelGroup" debe finalizar por la etiqueta final coincidente "</h:panelGroup>".
-javax.faces.view.facelets.FaceletException: Error Parsing /menu-administrador.xhtml: Error Traced[line: 33] El tipo de elemento "h:panelGroup" debe finalizar por la etiqueta final coincidente "</h:panelGroup>".
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:444)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
-	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:477)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:106)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:203)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:201)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:86)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:81)
-	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:99)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:114)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:63)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:299)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:243)
-	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:966)
-	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+[2016-09-06T19:58:13.163-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=79 _ThreadName=http-listener-1(1)] [timeMillis: 1473209893163] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.el.ELException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;]]
+
+[2016-09-06T19:58:13.163-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=79 _ThreadName=http-listener-1(1)] [timeMillis: 1473209893163] [levelValue: 1100] [[
+  /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
 	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
@@ -1212,32 +124,47 @@ javax.faces.view.facelets.FaceletException: Error Parsing /menu-administrador.xh
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
 	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
 ]]
 
-[2016-09-06T14:30:43.177-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=19 _ThreadName=http-listener-1(2)] [timeMillis: 1473190243177] [levelValue: 1100] [[
-  JSF1073: se ha interceptado javax.faces.view.facelets.FaceletException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=Error Parsing /menu-administrador.xhtml: Error Traced[line: 18] El tipo de elemento "h:panelGroup" debe finalizar por la etiqueta final coincidente "</h:panelGroup>".]]
-
-[2016-09-06T14:30:43.177-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=19 _ThreadName=http-listener-1(2)] [timeMillis: 1473190243177] [levelValue: 1100] [[
-  Error Parsing /menu-administrador.xhtml: Error Traced[line: 18] El tipo de elemento "h:panelGroup" debe finalizar por la etiqueta final coincidente "</h:panelGroup>".
-javax.faces.view.facelets.FaceletException: Error Parsing /menu-administrador.xhtml: Error Traced[line: 18] El tipo de elemento "h:panelGroup" debe finalizar por la etiqueta final coincidente "</h:panelGroup>".
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:444)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
-	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:477)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:106)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:203)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:201)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:86)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:81)
-	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:99)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:114)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:63)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:299)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:243)
-	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:966)
-	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+[2016-09-06T19:58:46.239-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.application] [tid: _ThreadID=80 _ThreadName=http-listener-1(2)] [timeMillis: 1473209926239] [levelValue: 1000] [[
+  Error Rendering View[/carrito-compras.xhtml]
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
 	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
@@ -1268,132 +195,50 @@ javax.faces.view.facelets.FaceletException: Error Parsing /menu-administrador.xh
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
 	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
 ]]
 
-[2016-09-06T14:31:22.380-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473190282380] [levelValue: 800] [[
-  Llego a irAdminCliente]]
+[2016-09-06T19:58:46.245-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=80 _ThreadName=http-listener-1(2)] [timeMillis: 1473209926245] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.el.ELException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;]]
 
-[2016-09-06T14:31:22.406-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473190282406] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:31:22.407-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473190282407] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:31:42.757-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190302757] [levelValue: 800] [[
-  Llego a irAdminCatalogo]]
-
-[2016-09-06T14:32:00.685-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190320685] [levelValue: 800] [[
-  Llego a irAdminCatalogo]]
-
-[2016-09-06T14:32:13.403-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=19 _ThreadName=Thread-3] [timeMillis: 1473190333403] [levelValue: 800] [[
-  Llego a irAdminCatalogo]]
-
-[2016-09-06T14:32:19.719-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190339719] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:32:19.729-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190339729] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:32:19.729-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190339729] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:40:01.647-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473190801647] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:40:01.655-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190801655] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:40:01.655-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190801655] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:40:45.737-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473190845737] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:40:45.752-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473190845752] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:40:45.753-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473190845753] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:41:28.975-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190888975] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:41:28.990-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190888990] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:41:28.990-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190888990] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:41:48.988-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473190908988] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:41:49.003-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190909003] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:41:49.003-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473190909003] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:42:07.515-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=19 _ThreadName=Thread-3] [timeMillis: 1473190927515] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:42:07.530-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=19 _ThreadName=http-listener-1(2)] [timeMillis: 1473190927530] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:42:07.530-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=19 _ThreadName=http-listener-1(2)] [timeMillis: 1473190927530] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:42:20.827-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473190940827] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:42:20.841-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190940841] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:42:20.841-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473190940841] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
-
-[2016-09-06T14:43:37.880-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473191017880] [levelValue: 800] [[
-  Llego a irAdminCliente]]
-
-[2016-09-06T14:43:37.888-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191017888] [levelValue: 1100] [[
-  JSF1073: se ha interceptado javax.faces.view.facelets.TagException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/cliente.xhtml @17,25 <h:panelGroupm> Tag Library supports namespace: http://java.sun.com/jsf/html, but no tag was defined for name: panelGroupm]]
-
-[2016-09-06T14:43:37.888-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191017888] [levelValue: 1100] [[
-  /cliente.xhtml @17,25 <h:panelGroupm> Tag Library supports namespace: http://java.sun.com/jsf/html, but no tag was defined for name: panelGroupm
-javax.faces.view.facelets.TagException: /cliente.xhtml @17,25 <h:panelGroupm> Tag Library supports namespace: http://java.sun.com/jsf/html, but no tag was defined for name: panelGroupm
-	at com.sun.faces.facelets.compiler.CompilationManager.pushTag(CompilationManager.java:310)
-	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.startElement(SAXCompiler.java:266)
-	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
-	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:745)
-	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
-	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
-	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
-	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
-	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
-	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
-	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
-	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
-	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
-	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
-	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:332)
-	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:442)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
-	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:477)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:106)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:203)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:201)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:86)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:81)
-	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:99)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:114)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:63)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:299)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:243)
-	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:966)
-	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+[2016-09-06T19:58:46.245-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=80 _ThreadName=http-listener-1(2)] [timeMillis: 1473209926245] [levelValue: 1100] [[
+  /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
 	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
@@ -1424,59 +269,692 @@ javax.faces.view.facelets.TagException: /cliente.xhtml @17,25 <h:panelGroupm> Ta
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
 	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
 ]]
 
-[2016-09-06T14:44:26.670-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=21 _ThreadName=Thread-3] [timeMillis: 1473191066670] [levelValue: 800] [[
-  Llego a irAdminCliente]]
+[2016-09-06T20:00:20.100-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.application] [tid: _ThreadID=82 _ThreadName=http-listener-1(4)] [timeMillis: 1473210020100] [levelValue: 1000] [[
+  Error Rendering View[/carrito-compras.xhtml]
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
 
-[2016-09-06T14:44:26.684-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=21 _ThreadName=http-listener-1(4)] [timeMillis: 1473191066684] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:00:20.108-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=82 _ThreadName=http-listener-1(4)] [timeMillis: 1473210020108] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.el.ELException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;]]
 
-[2016-09-06T14:44:26.685-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=21 _ThreadName=http-listener-1(4)] [timeMillis: 1473191066685] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:00:20.109-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=82 _ThreadName=http-listener-1(4)] [timeMillis: 1473210020109] [levelValue: 1100] [[
+  /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
 
-[2016-09-06T14:44:37.893-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473191077893] [levelValue: 800] [[
-  Llego a irAdminCliente]]
+[2016-09-06T20:00:55.109-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.application] [tid: _ThreadID=81 _ThreadName=http-listener-1(3)] [timeMillis: 1473210055109] [levelValue: 1000] [[
+  Error Rendering View[/carrito-compras.xhtml]
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
 
-[2016-09-06T14:44:37.902-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473191077902] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:00:55.114-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=81 _ThreadName=http-listener-1(3)] [timeMillis: 1473210055114] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.el.ELException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;]]
 
-[2016-09-06T14:44:37.903-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=18 _ThreadName=http-listener-1(1)] [timeMillis: 1473191077903] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:00:55.115-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=81 _ThreadName=http-listener-1(3)] [timeMillis: 1473210055115] [levelValue: 1100] [[
+  /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
 
-[2016-09-06T14:44:49.880-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473191089880] [levelValue: 800] [[
-  Llego a irAdminCliente]]
+[2016-09-06T20:03:00.974-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.application] [tid: _ThreadID=83 _ThreadName=http-listener-1(5)] [timeMillis: 1473210180974] [levelValue: 1000] [[
+  Error Rendering View[/carrito-compras.xhtml]
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
 
-[2016-09-06T14:44:49.897-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191089897] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:03:00.979-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=83 _ThreadName=http-listener-1(5)] [timeMillis: 1473210180979] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.el.ELException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;]]
 
-[2016-09-06T14:44:49.898-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191089898] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:03:00.980-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=83 _ThreadName=http-listener-1(5)] [timeMillis: 1473210180980] [levelValue: 1100] [[
+  /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: com.losalpes.servicios.IServicioCarrito.darCarritoCompras()Ljava/util/List;
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
 
-[2016-09-06T14:45:08.538-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473191108538] [levelValue: 800] [[
-  Llego a irAdminCliente]]
+[2016-09-06T20:04:33.821-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210273821] [levelValue: 800] [[
+  visiting unvisited references]]
 
-[2016-09-06T14:45:08.553-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191108553] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:04:33.859-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210273859] [levelValue: 800] [[
+  visiting unvisited references]]
 
-[2016-09-06T14:45:08.554-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=22 _ThreadName=http-listener-1(5)] [timeMillis: 1473191108554] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:04:33.860-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210273860] [levelValue: 800] [[
+  visiting unvisited references]]
 
-[2016-09-06T14:45:53.573-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=20 _ThreadName=Thread-3] [timeMillis: 1473191153573] [levelValue: 800] [[
-  Llego a irAdminCliente]]
+[2016-09-06T20:04:33.861-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210273861] [levelValue: 800] [[
+  visiting unvisited references]]
 
-[2016-09-06T14:45:53.590-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191153590] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:04:33.861-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210273861] [levelValue: 800] [[
+  visiting unvisited references]]
 
-[2016-09-06T14:45:53.591-0500] [glassfish 4.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.renderkit] [tid: _ThreadID=20 _ThreadName=http-listener-1(3)] [timeMillis: 1473191153591] [levelValue: 900] [[
-  No se encuentra el componente con ID TxtNombreCompleto en la vista.]]
+[2016-09-06T20:04:33.861-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210273861] [levelValue: 800] [[
+  visiting unvisited references]]
 
-[2016-09-06T14:45:59.252-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=18 _ThreadName=Thread-3] [timeMillis: 1473191159252] [levelValue: 800] [[
-  Llego a irAdminCatalogo]]
+[2016-09-06T20:04:34.189-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210274189] [levelValue: 800] [[
+  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
 
-[2016-09-06T14:46:23.019-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=22 _ThreadName=Thread-3] [timeMillis: 1473191183019] [levelValue: 800] [[
-  Llego a irAdminCatalogo]]
+[2016-09-06T20:04:34.461-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210274461] [levelValue: 800] [[
+  Running on PrimeFaces 5.2]]
 
-[2016-09-06T14:46:44.686-0500] [glassfish 4.0] [INFO] [] [] [tid: _ThreadID=21 _ThreadName=Thread-3] [timeMillis: 1473191204686] [levelValue: 800] [[
-  Llego a irAdminCatalogo]]
+[2016-09-06T20:04:34.477-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210274477] [levelValue: 800] [[
+  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
+
+[2016-09-06T20:04:34.486-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=363 _ThreadName=admin-listener(8)] [timeMillis: 1473210274486] [levelValue: 800] [[
+  Lab2-MueblesDeLosAlpes-war was successfully deployed in 762 milliseconds.]]
+
+[2016-09-06T20:04:49.175-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289175] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:49.215-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289215] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:49.216-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289216] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:49.216-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289216] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:49.217-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289217] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:49.217-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289217] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:49.526-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289526] [levelValue: 800] [[
+  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
+
+[2016-09-06T20:04:49.780-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289780] [levelValue: 800] [[
+  Running on PrimeFaces 5.2]]
+
+[2016-09-06T20:04:49.797-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289797] [levelValue: 800] [[
+  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
+
+[2016-09-06T20:04:49.805-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210289805] [levelValue: 800] [[
+  Lab2-MueblesDeLosAlpes-war was successfully deployed in 786 milliseconds.]]
+
+[2016-09-06T20:04:52.653-0500] [glassfish 4.0] [SEVERE] [] [javax.enterprise.resource.webcontainer.jsf.application] [tid: _ThreadID=79 _ThreadName=http-listener-1(1)] [timeMillis: 1473210292653] [levelValue: 1000] [[
+  Error Rendering View[/carrito-compras.xhtml]
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
+
+[2016-09-06T20:04:52.688-0500] [glassfish 4.0] [FATAL] [jsf.context.exception.handler.log] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=79 _ThreadName=http-listener-1(1)] [timeMillis: 1473210292688] [levelValue: 1100] [[
+  JSF1073: se ha interceptado javax.el.ELException durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=/carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras]]
+
+[2016-09-06T20:04:52.688-0500] [glassfish 4.0] [FATAL] [] [javax.enterprise.resource.webcontainer.jsf.context] [tid: _ThreadID=79 _ThreadName=http-listener-1(1)] [timeMillis: 1473210292688] [levelValue: 1100] [[
+  /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+javax.el.ELException: /carrito-compras.xhtml @71,26 value="#{carritoBean.carritos}": java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:758)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:209)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:115)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:83)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:924)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:894)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:443)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:131)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:188)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.el.ELException: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:368)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:140)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:204)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 48 more
+Caused by: java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.losalpes.servicios.IServicioCarrito.darCarritoCompras
+	at com.losalpes.beans.carritoBean.getCarritos(carritoBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:363)
+	... 54 more
+]]
+
+[2016-09-06T20:04:58.529-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298529] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:58.568-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298568] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:58.569-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298569] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:58.569-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298569] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:58.570-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298570] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:58.570-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298570] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2016-09-06T20:04:58.894-0500] [glassfish 4.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210298894] [levelValue: 800] [[
+  Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para el contexto '/Lab2-MueblesDeLosAlpes-war']]
+
+[2016-09-06T20:04:59.176-0500] [glassfish 4.0] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210299176] [levelValue: 800] [[
+  Running on PrimeFaces 5.2]]
+
+[2016-09-06T20:04:59.189-0500] [glassfish 4.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210299189] [levelValue: 800] [[
+  Loading application [Lab2-MueblesDeLosAlpes-war] at [/Lab2-MueblesDeLosAlpes-war]]]
+
+[2016-09-06T20:04:59.196-0500] [glassfish 4.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=34 _ThreadName=admin-listener(1)] [timeMillis: 1473210299196] [levelValue: 800] [[
+  Lab2-MueblesDeLosAlpes-war was successfully deployed in 807 milliseconds.]]
 
